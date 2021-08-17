@@ -1,11 +1,108 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
-/* Global values  */
+/* Global values start */
 body {
   font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 3rem;
+  color: #000;
 }
 p {
   font-size: 1rem;
   font-weight: 400;
 }
+.button {
+  background: #e76f51;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 46px;
+}
+/* Global values end  */
+
+/* Featured Bikes style start */
+.orange-line {
+  width: 58.5px;
+  border: 1px solid #e76f51;
+  margin-top: -5%;
+}
+.bike-img {
+  width: 288px;
+  height: 243px;
+}
+.gray {
+  filter: grayscale(100%);
+}
+/* Featured Bikes style end */
+
+/* Happy clients start */
+.card-width {
+  width: 400px;
+}
+.card-padding {
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 40px 35px;
+}
+.rounded-img {
+  display: inline-block;
+  width: 149px;
+  height: 149px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.fa-star {
+  color: #e76f51;
+  font-size: 20px;
+}
+.fa-star.filled-clr {
+  color: #e76f51;
+}
+.client-name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #23a6f0;
+}
+.designation {
+  font-weight: 600;
+  font-size: 14px;
+  color: #252b42;
+}
+/* Happy clients end */
+
+/* FAQ Section start  */
+.column-img {
+  text-align: center;
+  width: 431.2px;
+  height: 423.5px;
+}
+.btn-design {
+  background: #ffffff;
+  border: 1px solid #d5e5fb;
+  border-bottom: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #383838;
+  padding: 20px 24px;
+}
+.btn-design:hover,
+.btn-design:focus,
+.btn-design:active {
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #d5e5fb;
+  color: #000;
+  background-color: #fff;
+}
+.accordion-text-design {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #7e848c;
+  border: none;
+}
+/* FAQ Section end */
